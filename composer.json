@@ -1,0 +1,15 @@
+{
+    "name": "mateuszwojczal/php-fp",
+    "autoload": {
+        "psr-4": {
+            "Mateuszwojczal\\PhpFp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateusz Wojczal",
+            "email": "mateusz@wojczal.com"
+        }
+    ],
+    "require": {}
+}
