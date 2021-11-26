@@ -11,5 +11,7 @@
             "email": "mateusz@wojczal.com"
         }
     ],
-    "require": {}
+    "require": {
+        "functional-php/pattern-matching": "^1.0"
+    }
 }
