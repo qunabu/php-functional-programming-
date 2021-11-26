@@ -9,5 +9,5 @@ php functional programming live coding
 7.	Referential transparency
 8.	Data structures
 
-9. x1. curring
-10. x2. monady
+9. curring
+10. monads

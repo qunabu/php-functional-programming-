@@ -12,6 +12,11 @@ $fact = m\func([
     }
 ]);
 
+$fact = m\func([
+    '0' => 1,
+    'n' => fn($n)=> $n * $fact($n - 1)
+]);
+
 $head = m\func([
     '(x:_)' => function($x) { return $x; },
     '_' => function() { throw new RuntimeException('empty list'); }
